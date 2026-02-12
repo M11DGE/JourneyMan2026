@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>4E92D2DF494AEF4809E5B5A70123843D</ExecutionGuid>
+<CrashGUID>UECC-Windows-2B8CC9034B8CD5BDD86465950ED1E380_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: oldValue == newValue  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\HAL\ThreadingBase.cpp] [Line: 318] 
+oldValue(1) newValue(0) If this check fails make sure that there is a FTaskTagScope(ETaskTag::EParallelRenderingThread) as deep as possible on the current callstack, you can see the current value in ActiveNamedThreads(40000002), GRenderingThread(e796fe40)
+Stack: 
+0x00007ff64ec632ba UnrealGame.exe!`FLocMetadataObject::GetField&lt;4&gt;&apos;::`3&apos;::&lt;lambda_1&gt;::operator()() []
+0x00007ff64281c34c UnrealGame.exe!IsInParallelRenderingThread() []
+0x00007ff6461ccd26 UnrealGame.exe!OIT::InternalIsSortedPixelsEnabled() []
+0x00007ff6458973be UnrealGame.exe!CreateTranslucencyStandardPassProcessor() []
+0x00007ff649269d6c UnrealGame.exe!FMaterialShaderMap::CollectPSOPrecacheData() []
+0x00007ff6496d49af UnrealGame.exe!FMaterialPSOPrecacheCollectionTask::DoTask() []
+0x00007ff6496e3c11 UnrealGame.exe!TGraphTask&lt;FMaterialPSOPrecacheCollectionTask&gt;::ExecuteTask() []
+0x00007ff642667533 UnrealGame.exe!UE::Tasks::Private::FTaskBase::TryExecuteTask() []
+0x00007ff64263a54f UnrealGame.exe!LowLevelTasks::TTaskDelegate&lt;LowLevelTasks::FTask * __ptr64 __cdecl(bool),48&gt;::TTaskDelegateImpl&lt;`LowLevelTasks::FTask::Init&lt;`UE::Tasks::Private::FTaskBase::Init&apos;::`2&apos;::&lt;lambda_1&gt; &gt;&apos;::`13&apos;::&lt;lambda_1&gt;,0&gt;::CallAndMove() []
+0x00007ff64264563e UnrealGame.exe!LowLevelTasks::FTask::ExecuteTask() []
+0x00007ff6426454ea UnrealGame.exe!LowLevelTasks::FScheduler::ExecuteTask() []
+0x00007ff64266aaed UnrealGame.exe!LowLevelTasks::FScheduler::WorkerLoop() []
+0x00007ff642633051 UnrealGame.exe!`FScopeCycleCounter::~FScopeCycleCounter&apos;::`2&apos;::&lt;lambda_1&gt;::operator()() []
+0x00007ff64282edc3 UnrealGame.exe!FThreadImpl::Run() []
+0x00007ff642c46118 UnrealGame.exe!FRunnableThreadWin::Run() []
+0x00007ff642c3d77f UnrealGame.exe!FRunnableThreadWin::GuardedRun() []
+0x00007ffde290e8d7 KERNEL32.DLL!UnknownFunction []
+0x00007ffde3cac53c ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>4624</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-JourneyMan2026_Team3</GameName>
+<ExecutableName>UnrealGame</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.5.4-40574608+++UE5+Release-5.5</EngineVersion>
+<EngineCompatibleVersion>5.5.4-40574608+++UE5+Release-5.5</EngineCompatibleVersion>
+<CommandLine> ..\..\..\JourneyMan2026_Team3\JourneyMan2026_Team3.uproject</CommandLine>
+<LanguageLCID>9</LanguageLCID>
+<AppDefaultLocale>en-GB</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.5-CL-40574608</BuildVersion>
+<Symbols>**UE5*Release-5.5-CL-40574608-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/jaked/Documents/GitHub/JourneyMan2026/Windows/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/jaked/Documents/GitHub/JourneyMan2026/Windows/</RootDir>
+<MachineId>BD3F0F9C431543813B14FCAAA7D45504</MachineId>
+<LoginId>bd3f0f9c431543813b14fcaaa7d45504</LoginId>
+<EpicAccountId>c0f8d4196a9a4352ac5b139b0f6d28f8</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>20</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>28</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-14700F</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 5070 Ti</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.7623]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>34138726400</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>51948175360</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>12372860928</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>9858138112</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>836829184</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>838553600</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>998461440</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>998461440</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+UnrealGame  0x00007ff6413a0000 + d8c32ba         
+UnrealGame  0x00007ff6413a0000 + 147c34c         
+UnrealGame  0x00007ff6413a0000 + 4e2cd26         
+UnrealGame  0x00007ff6413a0000 + 44f73be         
+UnrealGame  0x00007ff6413a0000 + 7ec9d6c         
+UnrealGame  0x00007ff6413a0000 + 83349af         
+UnrealGame  0x00007ff6413a0000 + 8343c11         
+UnrealGame  0x00007ff6413a0000 + 12c7533         
+UnrealGame  0x00007ff6413a0000 + 129a54f         
+UnrealGame  0x00007ff6413a0000 + 12a563e         
+UnrealGame  0x00007ff6413a0000 + 12a54ea         
+UnrealGame  0x00007ff6413a0000 + 12caaed         
+UnrealGame  0x00007ff6413a0000 + 1293051         
+UnrealGame  0x00007ff6413a0000 + 148edc3         
+UnrealGame  0x00007ff6413a0000 + 18a6118         
+UnrealGame  0x00007ff6413a0000 + 189d77f         
+KERNEL32    0x00007ffde28e0000 + 2e8d7           
+</PCallStack>
+<PCallStackHash>39A377DCB9591FC217EB05F77BB36AC462614DA0</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Users/jaked/Documents/GitHub/JourneyMan2026/Windows/Engine/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>NVMe</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>1264380840</DriveStats.Project.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 5070 Ti</RHI.AdapterName>
+<RHI.UserDriverVersion>591.86</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.9186</RHI.InternalDriverVersion>
+<RHI.DriverDate>1-20-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2C05</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
