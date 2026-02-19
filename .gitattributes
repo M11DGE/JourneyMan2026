@@ -4,3 +4,4 @@
 .ucas filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
 *.ucas filter=lfs diff=lfs merge=lfs -text
+C:/Users/jaked/Documents/GitHub/JourneyMan2026/Windows filter=lfs diff=lfs merge=lfs -text
